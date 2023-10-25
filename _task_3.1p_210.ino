@@ -24,7 +24,7 @@ void setup() {
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print("... Searching WiFi to connect ...");
     WiFi.begin(wifiname, wifipass);
-    delay(11000); // Adjust delay as needed
+    delay(11000); 
   }
 
   Serial.println("Connection is established to WIFI");
